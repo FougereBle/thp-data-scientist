@@ -57,7 +57,7 @@ def perform(handles)
   puts "Voici le tri par ordre alphabétique : " + sort_handles_by_alpha(handles).to_s
   puts "Voici le tri par ordre de taille : " + sort_handles_by_size(handles).to_s
   puts "La position de la personne @epenser est de : " + epenser_position(handles).to_s
-  puts "La repartition des Handles (avec @ puisque ce n'est pas spécifié...) est de : " + handle_repartition(handles).to_s
+  puts "La repartition des Handles (avec @ puisque ce n'est pas spécifié...) est : " + handle_repartition(handles).to_s
 end
 
 perform(twitter_handles)
